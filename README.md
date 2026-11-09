@@ -2,51 +2,52 @@
 
 ![Penalty Kick Hero](docs/images/hero-goal.jpg)
 
-`Rehab Game: Penalty Kick` 是一款基于 Unity 3D 制作的康复训练点球小游戏作品集版本。项目以轻量、直观的足球射门交互为核心，用游戏化方式呈现训练节奏、命中反馈与回合目标，适合作为康复游戏方向的作品展示。
+`Rehab Game: Penalty Kick` is a Unity 3D penalty kick game presented as a rehabilitation game portfolio project. Simple, intuitive shooting interactions use gameplay to convey a training rhythm, scoring feedback, and round objectives.
 
-这个仓库是**作品集展示版**，不是开源源码仓库。这里保留项目介绍、玩法说明、展示图片和可执行版本下载入口；Unity 源工程、原始素材和开发用配置文件不包含在当前仓库中。
+This repository is a **portfolio showcase**. It contains the project overview, gameplay instructions, images, and a download link for the playable build. The Unity source project, original assets, and development configuration files are not included.
 
-## 下载体验
+## Download and Play
 
-- Windows 可执行版本：发布在 GitHub Releases
-- 下载地址：`Releases` 页面中的 `PenaltyKick-Windows.zip`
+A packaged **Windows 64-bit build** is available on [GitHub Releases](https://github.com/painfulmoments/Soccer/releases).
 
-发布完成后可直接使用这个固定链接下载：
+1. [Download PenaltyKick-Windows.zip](https://github.com/painfulmoments/Soccer/releases/latest/download/PenaltyKick-Windows.zip).
+2. Extract the entire ZIP archive to a local folder.
+3. Run `PenaltyKick.exe`. Keep the accompanying data folder and runtime files together with the executable.
 
-- [Download Windows Build](https://github.com/painfulmoments/Soccer/releases/latest/download/PenaltyKick-Windows.zip)
+You do not need the Unity Editor to play this build.
 
-## 项目特点
+## Features
 
-- 点球射门主题的康复游戏原型
-- 简单明确的拖拽式交互
-- 10 次射门回合与分数目标机制
-- 胜利 / 失败结算界面
-- 面向作品集展示的轻量发布形式
+- A rehabilitation game prototype built around penalty kicks
+- Simple drag-based shooting controls
+- Ten attempts per round with a scoring target
+- Win and loss result screens
+- A compact release format for portfolio presentation
 
-## 操作方式
+## Controls
 
-- 按住鼠标左键并向上拖拽：射门
-- 射门后继续拖动鼠标：调整球的高度、弧线和左右偏移
-- `Esc`：暂停或继续游戏
+- **Hold the left mouse button and drag upward:** shoot.
+- **Continue dragging after the shot:** adjust the ball's height, curve, and horizontal direction.
+- **Esc:** pause or resume the game.
 
-## 玩法规则
+## How to Play
 
-- 每局共有 `10` 次尝试机会
-- 足球射入球门会计分
-- 达成足够进球数即可胜利
-- 回合结束后会显示结算界面，并支持重新开始或返回主菜单
+- Each round gives you **10 attempts**.
+- Score by shooting the ball into the goal.
+- Reach the required number of goals to win.
+- At the end of a round, the result screen lets you restart or return to the main menu.
 
-## 展示图片
+## Screenshots
 
 ![Result Screen](docs/images/fail-screen-art.png)
 
-## 仓库内容
+## Repository Contents
 
-- [README.md](README.md)：项目首页说明
-- [guide.md](guide.md)：更详细的玩法与运行指南
-- `docs/images/`：作品集展示图片
-- `GitHub Releases`：Windows 可执行版本下载
+- [README.md](README.md): project overview
+- [guide.md](guide.md): detailed gameplay and running guide (in Chinese)
+- `docs/images/`: portfolio images
+- [GitHub Releases](https://github.com/painfulmoments/Soccer/releases): downloadable Windows build
 
-## 说明
+## Distribution Notes
 
-本仓库用于作品集展示，不作为 Unity 源码公开发布。可执行版本中可能包含经过整合后的第三方授权资源，它们仅作为最终应用的一部分提供，不提供原始工程文件与原始素材下载。
+This repository is intended for portfolio presentation and does not publish the Unity source code. The executable may include licensed third-party resources integrated into the final application. Original project files and raw assets are not provided for download.
